@@ -11,6 +11,7 @@ Aşağıdaki konfigürasyonlara başlamadan önce bazı ön gerekliliklerin tama
 
 1) Azure Portal hesabınıza giriş yapın.
 2) Giriş yaptıktan sonra karşınıza gelen + işaretine tıklayıp arama kısmında IoT Hub yazarak arama yapın.
+<img src="https://user-images.githubusercontent.com/76865995/192784263-e8e4205b-6c87-4d1b-8b33-ef3bc13d837f.png" width=50% height=50%>
 ![ss1](https://user-images.githubusercontent.com/76865995/192784263-e8e4205b-6c87-4d1b-8b33-ef3bc13d837f.png)
 3) IoT Hub sayfasına geldikten sonra "Create" diyerek kuruluma başlayın.
 ![ss2](https://user-images.githubusercontent.com/76865995/192785275-f9441974-a55f-4264-93b1-9baa53354072.png)
