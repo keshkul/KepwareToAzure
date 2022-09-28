@@ -28,7 +28,7 @@ Aşağıdaki konfigürasyonlara başlamadan önce bazı ön gerekliliklerin tama
 <img src="https://user-images.githubusercontent.com/76865995/192799282-ed3a4fda-fc8a-463f-9ae5-9fa349194e5b.png" width=49% /> <img src="https://user-images.githubusercontent.com/76865995/192786475-c6acefad-2d80-4928-bcc8-03aec99e96a1.png" width=50% />
 
 8) En son karşınıza bir özet sayfası geliyor. Ayarları kontrol ettikten sonra sayfanın altındaki Create seçeneğine tıklayarak IoT Hub'ınızın kurulumunu tamamlayın.
-<img src="https://user-images.githubusercontent.com/76865995/192789742-2316aa01-943a-4b28-a4be-52912decb2f9.png" width=65% height=65%>
+<img src="https://user-images.githubusercontent.com/76865995/192789742-2316aa01-943a-4b28-a4be-52912decb2f9.png" width=45% height=45%>
 
 9) IoT Hub kurulumu tamamlandıktan sonra sayfanın altında bulunan "Go to resource" butonuna tıklayarak detay sayfasına gidin.
 <img src="https://user-images.githubusercontent.com/76865995/192790505-3f417043-4c99-43d1-b2a1-95b88f18fb2e.png" width=65% height=65%>
