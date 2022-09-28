@@ -14,7 +14,7 @@ Aşağıdaki konfigürasyonlara başlamadan önce bazı ön gerekliliklerin tama
 <img src="https://user-images.githubusercontent.com/76865995/192784263-e8e4205b-6c87-4d1b-8b33-ef3bc13d837f.png" width=65% height=65%>
 
 3) IoT Hub sayfasına geldikten sonra "Create" diyerek kuruluma başlayın.
-![ss2](https://user-images.githubusercontent.com/76865995/192785275-f9441974-a55f-4264-93b1-9baa53354072.png)
+<img src="https://user-images.githubusercontent.com/76865995/192785275-f9441974-a55f-4264-93b1-9baa53354072.png" width=65% height=65%>
 4) Karşınıza gelen sayfada eğer bir Resource Group oluşturmadıysanız "Create New" seçeneği ile hızlıca bir isim vererek oluşturun.
 5) IoT Hub Name kısmına belirlediğiniz bir ismi yazıp diğer kısımları olduğu gibi bırakarak bir sonraki sayfaya geçin.
 ![ss3](https://user-images.githubusercontent.com/76865995/192785616-01f88fed-144b-4c22-9c5b-99020accf7c8.png)
@@ -23,7 +23,6 @@ Aşağıdaki konfigürasyonlara başlamadan önce bazı ön gerekliliklerin tama
 7) Management kısmında ise Defender for IoT özelliğine ihtiyacımız olmadığı için bu seçeneği kapatın. Role-based access control kısmında ise "Shared access policy + RBAC" seçeneğini seçin. Ek olarak "Assign me to the IoT Hub Data Contributor role" seçeneğini aktif ederek bir sonraki sayfaya geçin.
 
 <img src="https://user-images.githubusercontent.com/76865995/192786466-b7477186-41e8-4afb-9ae9-47b9c8414ae9.png" width=49% /> <img src="https://user-images.githubusercontent.com/76865995/192786475-c6acefad-2d80-4928-bcc8-03aec99e96a1.png" width=50% />
-
 8) En son karşınıza bir özet sayfası geliyor. Ayarları kontrol ettikten sonra sayfanın altındaki Create seçeneğine tıklayarak IoT Hub'ınızın kurulumunu tamamlayın.
 
 ![ss7](https://user-images.githubusercontent.com/76865995/192789742-2316aa01-943a-4b28-a4be-52912decb2f9.png)
