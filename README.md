@@ -38,3 +38,15 @@ Aşağıdaki konfigürasyonlara başlamadan önce bazı ön gerekliliklerin tama
 KepwareDemoHub.azure-devices.net
 ```
 <img src="https://user-images.githubusercontent.com/76865995/192791272-4708a3e4-ac90-4f94-ae4c-f43548096fee.png" width=75% height=75%>
+
+11) Sayfanın solundaki listeden "Shared access policies" kısmına tıklayıp gelen sayfada Add diyerek devam edin.
+<img src="https://user-images.githubusercontent.com/76865995/192812073-a8667b73-f317-4bc0-9aea-5696078db2c0.png" width=65% height=65%>
+
+12) Yeni policy için bir isim girin ve demo yapılacağı için bütün izinleri verip Add butonuna tıklayarak policy ekleyin.
+<img src="https://user-images.githubusercontent.com/76865995/192812290-91c9a45f-b7b1-4ac8-9420-ca80ce8e7961.png" width=65% height=65%>
+
+13) Listede yeni eklediğiniz policy'yi görebilirsiniz. Eklediğiniz policy'nin üstüne tıklayarak devam edin ve "Primary connection string" kısmını kopyalayarak not edin. Kopyaladığınız string aşağıdaki gibi olmalıdır:
+```
+HostName=KepwareDemoHub.azure-devices.net;SharedAccessKeyName=KepwareDemo;SharedAccessKey=1DSozN0+9iIHnNMDswdxdnC3VINbKqlI/OJs8iv5hi8=
+```
+
