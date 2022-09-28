@@ -2,6 +2,9 @@
 
 Not: Aşağıdaki konfigürasyonlar Windows üzerinde çalıştırmak içindir. 
 
+https://javadl.oracle.com/webapps/download/AutoDL?BundleId=246806_424b9da4b48848379167015dcc250d8d
+
+
 
 
 ```
