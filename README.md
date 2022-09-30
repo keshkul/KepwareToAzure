@@ -112,7 +112,7 @@ SharedAccessSignature sr=KepwareDemoHub.azure-devices.net%2Fdevices%2FAzureMQTT&
 
 24) Tagleri ekledikten sonra eğer bütün ayarları doğru yaptıysak Event Log kısmında da görebileceğimiz gibi sağlıklı bir şekilde verilerimizi Azure IoT Hub'ımıza MQTT protokolü üzerinden gönderiyor olacağız.
 
-<img src="https://user-images.githubusercontent.com/76865995/193267909-1a0c8ba9-68f4-4db8-957b-1e88a632b003.png" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/76865995/193267909-1a0c8ba9-68f4-4db8-957b-1e88a632b003.png" width=80% height=80%>
 
 Device Explorer uygulamasına geri dönüp Data sekmesinin altında Monitor butonuna tıklarsak verilerin geldiğini buradan kontrol edebiliriz.
 <p align="center">
