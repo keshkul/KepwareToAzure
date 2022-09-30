@@ -85,4 +85,42 @@ Topic kısmının yapısı ise <b>devices/deviceID/messages/events/</b> şeklind
 devices/AzureMQTT/messages/events/
 ```
 Diğer ayarları Default olarak bırakıp Next diyoruz.
-<img src="https://user-images.githubusercontent.com/76865995/193261651-80e36fb6-cc63-441b-9589-8e3ecf4ea73b.png" width=65% height=65%>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/76865995/193261651-80e36fb6-cc63-441b-9589-8e3ecf4ea73b.png" width=50% height=50%>
+</p>
+
+22) Gelen sayfada Client ID kısmına <b>deviceID</b> bilgimizi, username kısmına <b>Hostname/deviceID</b> bilgimizi ve password kısmına da daha önce not ettiğimiz <b>SAS Token</b> bilgimizi  yazıyoruz. Bu durumda demomuzda bu bilgiler aşağıdaki gibi olacaktır.
+Client ID:
+```
+AzureMQTT
+```
+Username:
+```
+KepwareDemoHub.azure-devices.net/AzureMQTT
+```
+Password:
+```
+SharedAccessSignature sr=KepwareDemoHub.azure-devices.net%2Fdevices%2FAzureMQTT&sig=dOfaGE%2BXLp6tBcdXVvAUbi%2FBuasE82sEq2pHtXXZc1c%3D&se=1696071245
+```
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/76865995/193263433-54516c2b-6dfc-4d7c-ad9c-40695b2b80e1.png" width=50% height=50%>
+</p>
+
+23) Bilgileri girdikten sonra Finish diyoruz. MQTT Client oluşturulduktan sonra <b>Add IoT Items...</b> yazısına tıklayarak IoT Hub'a göndermek istediğimiz tagleri seçip buraya ekliyoruz.
+
+<img src="https://user-images.githubusercontent.com/76865995/193266839-ee12bfe1-4115-4bba-bfce-fde98a327055.png" width=49% height=50%> <img src="https://user-images.githubusercontent.com/76865995/193267631-c82f3b1d-4042-437b-a80e-c7ec44fbee13.png" width=49% height=50%>
+
+24) Tagleri ekledikten sonra eğer bütün ayarları doğru yaptıysak Event Log kısmında da görebileceğimiz gibi sağlıklı bir şekilde verilerimizi Azure IoT Hub'ımıza MQTT protokolü üzerinden gönderiyor olacağız.
+
+<img src="https://user-images.githubusercontent.com/76865995/193267909-1a0c8ba9-68f4-4db8-957b-1e88a632b003.png" width=65% height=65%>
+
+Device Explorer uygulamasına geri dönüp Data sekmesinin altında Monitor butonuna tıklarsak verilerin geldiğini buradan kontrol edebiliriz.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/76865995/193270212-abd85451-1dfb-478a-9692-c2e7fbf0169a.png" width=50% height=50%>
+</p>
+
+# Kepware - REST
+
+25) 
+
+
