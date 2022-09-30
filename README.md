@@ -49,4 +49,17 @@ KepwareDemoHub.azure-devices.net
 ```
 HostName=KepwareDemoHub.azure-devices.net;SharedAccessKeyName=KepwareDemo;SharedAccessKey=1DSozN0+9iIHnNMDswdxdnC3VINbKqlI/OJs8iv5hi8=
 ```
+Artık IoT Hub'a bağlanmaya ve yeni sanal cihazlar oluşturmaya hazırız.
 
+14) Bu sayfanın yukarısında bulunan listeden "SetupDeviceExplorer.msi" adlı dosyayı indirin ve kurun. Bu dosyaya ayrıca [Azure Github](https://azure.microsoft.com/tr-tr/get-started/azure-portal/) sayfasında biraz aşağı kısımlarda da ulaşabilirsiniz.
+15) Kurduğunuz "Device Explorer" programını çalıştırın. Daha önce not ettiğiniz bilgileri burada kullanacaksınız. "Primary connection string" bilginizi IoT Hub Connection String kısmına, hostname bilginizi de Protocol Gateway HostName kısmına girip "Update" butonuna basın. Azure IoT Hub'ınıza bağlantı sağlandı. 
+<img src="https://user-images.githubusercontent.com/76865995/193204395-d9357f0e-0641-40ca-a779-ecf0d2b11fed.png" width=65% height=65%>
+
+16) Bağlantı sağlandıktan sonra Device Explorer üzerinden IoT Hub'ınızda yeni sanal cihazlar oluşturabilirsiniz. Bundan sonra Azure IoT Hub'a Kepware'den MQTT ve REST protokolleri üzerinden veri gönderimi gerçekleştireceğiz. Demomuzda iki protokol için iki ayrı sanal cihaz oluşturacağız.
+
+# Kepware - MQTT 
+
+17) Device Explorer'da Management sekmesinin altındaki Create butonuna tıklayarak Kepware'den MQTT ile veri aktarabilmek için yeni bir cihaz oluşturun. Gelen ekranda Device ID kısmına bir isim girerek Create diyin.   
+<img src="https://user-images.githubusercontent.com/76865995/193208579-32023bc6-049a-40ae-85a8-9df0022ad09d.png" width=65% height=65%>
+
+18) 
