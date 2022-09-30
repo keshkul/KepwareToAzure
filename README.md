@@ -66,5 +66,8 @@ Artık IoT Hub'a bağlanmaya ve yeni sanal cihazlar oluşturmaya hazırız.
 ```
 SharedAccessSignature sr=KepwareDemoHub.azure-devices.net%2Fdevices%2FAzureMQTT&sig=U%2Bz7ex8OgJvGW3Stp4ZhfwXQShppHoFkcsMZTWyJkKE%3D&se=1696063201
 ```
-<img src="https://user-images.githubusercontent.com/76865995/193232202-b02c71f5-b887-4120-a62b-c8eb8ad421ca.png" align="center" width=65% height=65%> 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/76865995/193232202-b02c71f5-b887-4120-a62b-c8eb8ad421ca.png" width=65% height=65% />
+</p>
+<img src="https://user-images.githubusercontent.com/76865995/193232202-b02c71f5-b887-4120-a62b-c8eb8ad421ca.png" width=65% height=65%> 
 
