@@ -60,6 +60,6 @@ Artık IoT Hub'a bağlanmaya ve yeni sanal cihazlar oluşturmaya hazırız.
 # Kepware - MQTT 
 
 17) Device Explorer'da Management sekmesinin altındaki Create butonuna tıklayarak Kepware'den MQTT ile veri aktarabilmek için yeni bir cihaz oluşturun. Gelen ekranda Device ID kısmına bir isim girerek Create diyin.   
-<img src="https://user-images.githubusercontent.com/76865995/193208579-32023bc6-049a-40ae-85a8-9df0022ad09d.png" width=65% height=65%>
+<img src="https://user-images.githubusercontent.com/76865995/193208579-32023bc6-049a-40ae-85a8-9df0022ad09d.png" width=49% height=65%> <img src="https://user-images.githubusercontent.com/76865995/193209226-15b829ce-e0d2-4ec6-bb13-90cae1973dac.png" width=50% height=65%>
 
 18) 
