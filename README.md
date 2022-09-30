@@ -11,17 +11,17 @@ Aşağıdaki konfigürasyonlara başlamadan önce bazı ön gerekliliklerin tama
 
 1) Azure Portal hesabımıza giriş yapalım.
 2) Giriş yaptıktan sonra karşımıza gelen + işaretine tıklayıp arama kısmında IoT Hub yazarak arama yapalım.
-<img src="https://user-images.githubusercontent.com/76865995/192784263-e8e4205b-6c87-4d1b-8b33-ef3bc13d837f.png" width=65% height=65%>
+<img src="https://user-images.githubusercontent.com/76865995/192784263-e8e4205b-6c87-4d1b-8b33-ef3bc13d837f.png" width=50% height=50%>
 
 3) IoT Hub sayfasına geldikten sonra "Create" diyerek kuruluma başlayalım.
-<img src="https://user-images.githubusercontent.com/76865995/192785275-f9441974-a55f-4264-93b1-9baa53354072.png" width=65% height=65%>
+<img src="https://user-images.githubusercontent.com/76865995/192785275-f9441974-a55f-4264-93b1-9baa53354072.png" width=50% height=50%>
 
 4) Karşımıza gelen sayfada eğer bir Resource Group oluşturmadıysak "Create New" seçeneği ile hızlıca bir isim vererek oluşturalım.
 5) IoT Hub Name kısmına belirlediğimiz bir ismi yazıp diğer kısımları olduğu gibi bırakarak bir sonraki sayfaya geçelim.
-<img src="https://user-images.githubusercontent.com/76865995/192785616-01f88fed-144b-4c22-9c5b-99020accf7c8.png" width=65% height=65%>
+<img src="https://user-images.githubusercontent.com/76865995/192785616-01f88fed-144b-4c22-9c5b-99020accf7c8.png" width=50% height=50%>
 
 6) Network kısmında ise demo ortamında çalışacağımız için Public Access seçeneğini seçerek bir sonraki sayfaya geçelim. 
-<img src="https://user-images.githubusercontent.com/76865995/192786528-e881277b-c1b1-4d44-8111-203a5e53a4cd.png" width=65% height=65%>
+<img src="https://user-images.githubusercontent.com/76865995/192786528-e881277b-c1b1-4d44-8111-203a5e53a4cd.png" width=50% height=50%>
 
 7) Management kısmında ise Defender for IoT özelliğine ihtiyacımız olmadığı için bu seçeneği kapatabiliriz. Role-based access control kısmında ise "Shared access policy + RBAC" seçeneğini seçelim. Ek olarak "Assign me to the IoT Hub Data Contributor role" seçeneğini aktif ederek bir sonraki sayfaya geçelim.
 
@@ -31,7 +31,7 @@ Aşağıdaki konfigürasyonlara başlamadan önce bazı ön gerekliliklerin tama
 <img src="https://user-images.githubusercontent.com/76865995/192789742-2316aa01-943a-4b28-a4be-52912decb2f9.png" width=45% height=45%>
 
 9) IoT Hub kurulumu tamamlandıktan sonra sayfanın altında bulunan "Go to resource" butonuna tıklayarak detay sayfasına gidelim.
-<img src="https://user-images.githubusercontent.com/76865995/192790505-3f417043-4c99-43d1-b2a1-95b88f18fb2e.png" width=65% height=65%>
+<img src="https://user-images.githubusercontent.com/76865995/192790505-3f417043-4c99-43d1-b2a1-95b88f18fb2e.png" width=50% height=50%>
 
 10) Detay sayfasında yazan Hostname bilgisini not alalım. Benim örneğimde hostname:
 ```
@@ -40,10 +40,10 @@ KepwareDemoHub.azure-devices.net
 <img src="https://user-images.githubusercontent.com/76865995/192791272-4708a3e4-ac90-4f94-ae4c-f43548096fee.png" width=75% height=75%>
 
 11) Sayfanın solundaki listeden "Shared access policies" kısmına tıklayıp gelen sayfada Add diyerek devam edelim.
-<img src="https://user-images.githubusercontent.com/76865995/192812073-a8667b73-f317-4bc0-9aea-5696078db2c0.png" width=65% height=65%>
+<img src="https://user-images.githubusercontent.com/76865995/192812073-a8667b73-f317-4bc0-9aea-5696078db2c0.png" width=50% height=50%>
 
 12) Yeni policy için bir isim girelim ve demo yapılacağı için bütün izinleri verip Add butonuna tıklayarak policy ekleyelim.
-<img src="https://user-images.githubusercontent.com/76865995/192812290-91c9a45f-b7b1-4ac8-9420-ca80ce8e7961.png" width=65% height=65%>
+<img src="https://user-images.githubusercontent.com/76865995/192812290-91c9a45f-b7b1-4ac8-9420-ca80ce8e7961.png" width=50% height=50%>
 
 13) Listede yeni eklediğimiz policy'yi görebiliriz. Eklediğimiz policy'nin üstüne tıklayarak devam edelim ve "Primary connection string" kısmını kopyalayarak not edelim. Kopyaladığımız string aşağıdaki gibi olmalıdır:
 ```
