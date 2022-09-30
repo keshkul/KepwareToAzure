@@ -37,7 +37,7 @@ Aşağıdaki konfigürasyonlara başlamadan önce bazı ön gerekliliklerin tama
 ```
 KepwareDemoHub.azure-devices.net
 ```
-<img src="https://user-images.githubusercontent.com/76865995/192791272-4708a3e4-ac90-4f94-ae4c-f43548096fee.png" width=75% height=75%>
+<img src="https://user-images.githubusercontent.com/76865995/192791272-4708a3e4-ac90-4f94-ae4c-f43548096fee.png" width=50% height=50%>
 
 11) Sayfanın solundaki listeden "Shared access policies" kısmına tıklayıp gelen sayfada Add diyerek devam edelim.
 <img src="https://user-images.githubusercontent.com/76865995/192812073-a8667b73-f317-4bc0-9aea-5696078db2c0.png" width=50% height=50%>
@@ -53,14 +53,14 @@ Artık IoT Hub'a bağlanmaya ve yeni sanal cihazlar oluşturmaya hazırız.
 
 14) Bu sayfanın yukarısında bulunan listeden "SetupDeviceExplorer.msi" adlı dosyayı indirelim ve kuralım. Bu dosyaya ayrıca [Azure Github](https://azure.microsoft.com/tr-tr/get-started/azure-portal/) sayfasında biraz aşağı kısımlarda da ulaşabilirsiniz.
 15) Kurduğumuz "Device Explorer" programını çalıştıralım. Daha önce not ettiğimiz bilgileri burada kullanacağız. "Primary connection string" bilgimizi IoT Hub Connection String kısmına, hostname bilgimizi de Protocol Gateway HostName kısmına girip "Update" butonuna basalım. Azure IoT Hub'ımıza bağlantı sağlandı. 
-<img src="https://user-images.githubusercontent.com/76865995/193204395-d9357f0e-0641-40ca-a779-ecf0d2b11fed.png" width=65% height=65%>
+<img src="https://user-images.githubusercontent.com/76865995/193204395-d9357f0e-0641-40ca-a779-ecf0d2b11fed.png" width=50% height=50%>
 
 16) Bağlantı sağlandıktan sonra Device Explorer üzerinden IoT Hub'ımızda yeni sanal cihazlar oluşturabiliriz. Bundan sonra Azure IoT Hub'a Kepware'den MQTT ve REST protokolleri üzerinden veri gönderimi gerçekleştireceğiz. Demomuzda iki protokol için iki ayrı sanal cihaz oluşturacağız.
 
 # Kepware - MQTT 
 
 17) Device Explorer'da Management sekmesinin altındaki Create butonuna tıklayarak Kepware'den MQTT ile veri aktarabilmek için yeni bir cihaz oluşturalım. Gelen ekranda Device ID kısmına bir isim girerek Create diyelim.   
-<img src="https://user-images.githubusercontent.com/76865995/193208579-32023bc6-049a-40ae-85a8-9df0022ad09d.png" width=49% height=65%> <img src="https://user-images.githubusercontent.com/76865995/193209226-15b829ce-e0d2-4ec6-bb13-90cae1973dac.png" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/76865995/193208579-32023bc6-049a-40ae-85a8-9df0022ad09d.png" width=49% height=50%> <img src="https://user-images.githubusercontent.com/76865995/193209226-15b829ce-e0d2-4ec6-bb13-90cae1973dac.png" width=50% height=50%>
 
 18) Yeni oluşturduğumuz cihazı seçip "SAS Token..." butonuna tıklayalım. Gelen ekranda Device ID kısmından token üretmek istediğimiz cihazı seçelim. TTL (Days) kısmına tokenın geçerli olacağı süreyi gün olarak belirtelim ve "Generate" diyelim. Oluşturulan tokenın aşağıdaki ekran görüntüsündeki gibi seçili olan kısmını kopyalayıp not edelim. Generate dedikten sonra gelen bütün stringi kopyalamayın, kopyaladığınız kısım aşağıdaki gibi olmalıdır:
 ```
@@ -71,10 +71,10 @@ SharedAccessSignature sr=KepwareDemoHub.azure-devices.net%2Fdevices%2FAzureMQTT&
 </p>
 
 19) Artık Kepware üzerinde konfigürasyon gerçekleştirebiliriz. Kepware'i ilk yüklediğinizde örnek bir proje ile yüklenir. Ayrıca bu sayfanın yukarısındaki listeden "Simulation.opf" dosyasını indirip örnek verileri kullanabilirsiniz. Bu örnek fonksiyonları kullanarak işlemlerimizi gerçekleştireceğiz. 
-<img src="https://user-images.githubusercontent.com/76865995/193257874-888c1f84-e44e-4e16-b649-1e4623b87662.png" width=65% height=65%>
+<img src="https://user-images.githubusercontent.com/76865995/193257874-888c1f84-e44e-4e16-b649-1e4623b87662.png" width=50% height=50%>
 
 20) Kepware'de proje ağacında IoT Gateway kısmında Add Agent diyoruz. Gelen ekranda bir isim belirtip MQTT Client'ı seçiyoruz ve Next diyerek diğer sayfaya geçiyoruz. 
-<img src="https://user-images.githubusercontent.com/76865995/193257874-888c1f84-e44e-4e16-b649-1e4623b87662.png" width=65% height=65%>
+<img src="https://user-images.githubusercontent.com/76865995/193257874-888c1f84-e44e-4e16-b649-1e4623b87662.png" width=50% height=50%>
 
 21) Gelen sayfada URL kısmının yapısı <b>ssl://HostName:8883</b> şeklinde olmalı. Bu durumda bizim demomuzda bu aşağıdaki gibi olacaktır:
 ```
@@ -112,7 +112,7 @@ SharedAccessSignature sr=KepwareDemoHub.azure-devices.net%2Fdevices%2FAzureMQTT&
 
 24) Tagleri ekledikten sonra eğer bütün ayarları doğru yaptıysak Event Log kısmında da görebileceğimiz gibi sağlıklı bir şekilde verilerimizi Azure IoT Hub'ımıza MQTT protokolü üzerinden gönderiyor olacağız.
 
-<img src="https://user-images.githubusercontent.com/76865995/193267909-1a0c8ba9-68f4-4db8-957b-1e88a632b003.png" width=65% height=65%>
+<img src="https://user-images.githubusercontent.com/76865995/193267909-1a0c8ba9-68f4-4db8-957b-1e88a632b003.png" width=50% height=50%>
 
 Device Explorer uygulamasına geri dönüp Data sekmesinin altında Monitor butonuna tıklarsak verilerin geldiğini buradan kontrol edebiliriz.
 <p align="center">
