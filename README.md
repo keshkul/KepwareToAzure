@@ -60,6 +60,11 @@ Artık IoT Hub'a bağlanmaya ve yeni sanal cihazlar oluşturmaya hazırız.
 # Kepware - MQTT 
 
 17) Device Explorer'da Management sekmesinin altındaki Create butonuna tıklayarak Kepware'den MQTT ile veri aktarabilmek için yeni bir cihaz oluşturun. Gelen ekranda Device ID kısmına bir isim girerek Create diyin.   
-<img src="https://user-images.githubusercontent.com/76865995/193208579-32023bc6-049a-40ae-85a8-9df0022ad09d.png" width=49% height=65%> <img src="https://user-images.githubusercontent.com/76865995/193209226-15b829ce-e0d2-4ec6-bb13-90cae1973dac.png" width=50% height=65%>
+<img src="https://user-images.githubusercontent.com/76865995/193208579-32023bc6-049a-40ae-85a8-9df0022ad09d.png" width=49% height=65%> <img src="https://user-images.githubusercontent.com/76865995/193209226-15b829ce-e0d2-4ec6-bb13-90cae1973dac.png" width=50% height=50%>
 
-18) 
+18) Yeni oluşturduğunuz cihazı seçip "SAS Token..." butonuna tıklayın. Gelen ekranda Device ID kısmından token üretmek istediğiniz cihazı seçin. TTL (Days) kısmına tokenın geçerli olacağı süreyi gün olarak belirtin ve "Generate" diyin. Oluşturulan tokenın aşağıdaki ekran görüntüsündeki gibi seçili olan kısmını kopyalayıp not edin. Generate dedikten sonra gelen bütün stringi kopyalamayın, kopyaladığınız kısım aşağıdaki gibi olmalıdır:
+```
+SharedAccessSignature sr=KepwareDemoHub.azure-devices.net%2Fdevices%2FAzureMQTT&sig=U%2Bz7ex8OgJvGW3Stp4ZhfwXQShppHoFkcsMZTWyJkKE%3D&se=1696063201
+```
+<img src="https://user-images.githubusercontent.com/76865995/193232202-b02c71f5-b887-4120-a62b-c8eb8ad421ca.png" width=65% height=65%> 
+
