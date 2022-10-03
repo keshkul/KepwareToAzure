@@ -90,6 +90,7 @@ Diğer ayarları Default olarak bırakıp Next diyoruz.
 </p>
 
 22) Gelen sayfada Client ID kısmına <b>deviceID</b> bilgimizi, username kısmına <b>Hostname/deviceID</b> bilgimizi ve password kısmına da daha önce not ettiğimiz <b>SAS Token</b> bilgimizi  yazıyoruz. Bu durumda demomuzda bu bilgiler aşağıdaki gibi olacaktır.
+
 Client ID:
 ```
 AzureMQTT
@@ -121,6 +122,36 @@ Device Explorer uygulamasına geri dönüp Data sekmesinin altında Monitor buto
 
 # Kepware - REST
 
-25) 
+25) REST bağlantısı ile veri göndermek için Device Explorer üstünden yeni bir cihaz yaratalım. DeviceID kısmına ynei bir isim girip Create diyelim.
+<img src="https://user-images.githubusercontent.com/76865995/193528741-360ac3f8-408b-4f0d-a5be-a44341f4cc44.png" width=50% height=50%>
 
+26) Yeni oluşturduğumuz cihazın ismine tıklayıp "SAS Token..." butonuna tıklıyoruz. DeviceID kısmından cihazımızı seçip TTL süresini belirtelim. Daha sonra Generate diyip oluşan token'ın seçili kısmını not edelim.
+<img src="https://user-images.githubusercontent.com/76865995/193529287-31f74266-a6e8-4a92-9636-95d4cf94b774.png" width=50% height=50%>
 
+27) Kepware tarafına geçelim. Yine daha önce kullandığımız projedeki örnek simülasyon verilerini kullanacağız. 
+<img src="https://user-images.githubusercontent.com/76865995/193529523-855f618e-efa4-402f-91c1-1ba21aaba67b.png" width=50% height=50%>
+
+28) IoT Gateway eklentisine sağ tıklayıp <b>New Agent</b> diyelim. Type kısmından <b>REST Client</b> seçtikten sonra isim verip Next diyelim.  
+<img src="https://user-images.githubusercontent.com/76865995/193529949-de90ad90-e1e4-4480-9d6d-fd7431f8f59f.png" width=50% height=50%>
+
+29) URL kısmı için format şu şekilde olmalıdır: <b>https://HostName/devices/deviceID/messages/events?api-version={version#}</b>. Güncel API versiyonunu [buraya](https://learn.microsoft.com/en-us/rest/api/iothub/) tıklayıp gideceğiniz sitede "Common parameters and headers" başlığı altında bulabilirsiniz. Daha sonra URL'de yazan {version#} kısmını silip websitesinde yazan API versiyon bilgisini yazalım. URL'yi girdikten sonra diğer kısımları Default bırakıp Next diyelim. Bu bilgilere göre bizim örneğimizde URL aşağıdaki gibi olacaktır:
+```
+https://KepwareDemoHub.azure-devices.net/devices/AzureREST/messages/events?api-version=2018-06-30
+``` 
+<img src="https://user-images.githubusercontent.com/76865995/193532159-1efc77e9-174a-46a7-a177-5f4db7cb2b01.png" width=50% height=50%>
+
+30) Karşımıza gelen HTTP Header kısmına; başına <b>Authorization: </b> yazdıktan sonra yeni cihazımız için generate ettiğimiz SAS Token bilgisini girip <b>Finish</b> diyelim. Bizim örneğimizde bu kısım aşağıdaki gibi olacaktır:
+```
+Authorization: SharedAccessSignature sr=KepwareDemoHub.azure-devices.net%2Fdevices%2FAzureREST&sig=pnOVy%2FxOiUyVScNOEVQ9ICGKMRl2DHBfb2mFKRvHuNQ%3D&se=1696313014
+``` 
+31) Şimdi REST üzerinden göndermek istediğimiz örnek tagleri yeni oluşturduğumuz REST Client alanına ekleyelim. 
+<img src="https://user-images.githubusercontent.com/76865995/193533616-1faf1b3d-c518-4b34-89db-3a1174d4e612.png" width=49% height=50%> <img src="https://user-images.githubusercontent.com/76865995/193267631-c82f3b1d-4042-437b-a80e-c7ec44fbee13.png" width=49% height=50%>
+
+32) Tagleri ekledikten sonra eğer bütün ayarları doğru yaptıysak Event Log kısmında da görebileceğimiz gibi sağlıklı bir şekilde verilerimizi Azure IoT Hub'ımıza REST protokolü üzerinden gönderiyor olacağız.
+
+<img src="https://user-images.githubusercontent.com/76865995/193534090-ae46f556-915b-4e31-962a-8ec110165019.png" width=80% height=80%>
+
+Device Explorer uygulamasına geri dönüp Data sekmesinin altında ilgili cihazımızı seçip Monitor butonuna tıklarsak verilerin geldiğini buradan kontrol edebiliriz.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/76865995/193535123-43852bc9-cc94-4aaa-a3f8-0efa26a6fb1f.png" width=50% height=50%>
+</p>
