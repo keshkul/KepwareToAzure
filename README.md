@@ -145,7 +145,7 @@ https://KepwareDemoHub.azure-devices.net/devices/AzureREST/messages/events?api-v
 Authorization: SharedAccessSignature sr=KepwareDemoHub.azure-devices.net%2Fdevices%2FAzureREST&sig=pnOVy%2FxOiUyVScNOEVQ9ICGKMRl2DHBfb2mFKRvHuNQ%3D&se=1696313014
 ``` 
 31) Şimdi REST üzerinden göndermek istediğimiz örnek tagleri yeni oluşturduğumuz REST Client alanına ekleyelim. 
-<img src="https://user-images.githubusercontent.com/76865995/193533616-1faf1b3d-c518-4b34-89db-3a1174d4e612.png" width=49% height=50%> <img src="https://user-images.githubusercontent.com/76865995/193267631-c82f3b1d-4042-437b-a80e-c7ec44fbee13.png" width=49% height=50%>
+<img src="https://user-images.githubusercontent.com/76865995/193533616-1faf1b3d-c518-4b34-89db-3a1174d4e612.png" width=49% height=25%> <img src="https://user-images.githubusercontent.com/76865995/193267631-c82f3b1d-4042-437b-a80e-c7ec44fbee13.png" width=49% height=50%>
 
 32) Tagleri ekledikten sonra eğer bütün ayarları doğru yaptıysak Event Log kısmında da görebileceğimiz gibi sağlıklı bir şekilde verilerimizi Azure IoT Hub'ımıza REST protokolü üzerinden gönderiyor olacağız.
 
