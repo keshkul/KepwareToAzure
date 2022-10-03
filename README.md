@@ -134,7 +134,7 @@ Device Explorer uygulamasına geri dönüp Data sekmesinin altında Monitor buto
 28) IoT Gateway eklentisine sağ tıklayıp <b>New Agent</b> diyelim. Type kısmından <b>REST Client</b> seçtikten sonra isim verip Next diyelim.  
 <img src="https://user-images.githubusercontent.com/76865995/193529949-de90ad90-e1e4-4480-9d6d-fd7431f8f59f.png" width=50% height=50%>
 
-29) URL kısmı için format şu şekilde olmalıdır: <b>https://HostName/devices/deviceID/messages/events?api-version={version#}</b>. Güncel API versiyonunu [buraya](https://learn.microsoft.com/en-us/rest/api/iothub/) tıklayıp gideceğiniz sitede "Common parameters and headers" başlığı altında bulabilirsiniz. Daha sonra URL'de yazan {version#} kısmını silip websitesinde yazan API versiyon bilgisini yazalım. URL'yi girdikten sonra diğer kısımları Default bırakıp Next diyelim. Bu bilgilere göre bizim örneğimizde URL aşağıdaki gibi olacaktır:
+29) URL kısmı için format şu şekilde olmalıdır: <b>https://HostName/devices/deviceID/messages/events?api-version={version#}</b>. Güncel API versiyonunu [buraya](https://learn.microsoft.com/en-us/rest/api/iothub/) tıklayıp gideceğiniz sitede "Common parameters and headers" başlığı altında bulabilirsiniz. Daha sonra URL'de yazan <b>{version#}</b> kısmını silip websitesinde yazan API versiyon bilgisini yazalım. URL'yi girdikten sonra diğer kısımları Default bırakıp Next diyelim. Bu bilgilere göre bizim örneğimizde URL aşağıdaki gibi olacaktır:
 ```
 https://KepwareDemoHub.azure-devices.net/devices/AzureREST/messages/events?api-version=2018-06-30
 ``` 
