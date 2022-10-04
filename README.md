@@ -1,5 +1,7 @@
 <h1 align="center">KEPServerEX - Azure Bağlantısı</h1>
 
+<b>NOT:</b> Aşağıdaki bilgiler demo için oluşturulan Azure IoT Hub örneğinin bilgileri olup oluşturulan IoT Hub daha sonra silindiğinden dolayı bu bilgiler kullanım dışıdır.
+
 Aşağıdaki konfigürasyonlara başlamadan önce bazı ön gerekliliklerin tamamlanmış olması beklenmektedir. Bunlar;
 
 * Kurulmuş ve verisi aktarılmak istenen cihazların tanımlandığı KEPServerEX yazılımı. Örnek proje olarak bu repository'nin içerisindeki .opf dosyası indirilip KEPServerEX'te açılarak içerisindeki hazır veriler kullanılabilir. 
