@@ -1,3 +1,4 @@
+[readme1](https://github.com/keshkul/KepwareToAzure/blob/main/readme1.md)
 <h1 align="center">KEPServerEX - Azure Bağlantısı</h1>
 
 <b>NOT:</b> Aşağıdaki bilgiler demo için oluşturulan Azure IoT Hub örneğinin bilgileri olup oluşturulan IoT Hub daha sonra silindiğinden dolayı bu bilgiler kullanım dışıdır.
